@@ -1,0 +1,6 @@
+C:\Users\Fariya\Downloads\Red Drops\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Fariya\Downloads\Red Drops\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Fariya\Downloads\Red Drops\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\Fariya\Downloads\Red Drops\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Fariya\Downloads\Red Drops\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Fariya\Downloads\Red Drops\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

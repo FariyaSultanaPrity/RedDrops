@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3FA9EAEF-7B34-4F1E-921D-5389DA6CBEBC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Red_Drops</RootNamespace>
+    <AssemblyName>Red Drops</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About Us.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About Us.Designer.cs">
+      <DependentUpon>About Us.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddAdmin.Designer.cs">
+      <DependentUpon>AddAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin page.Designer.cs">
+      <DependentUpon>Admin page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Blood Request.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Blood Request.Designer.cs">
+      <DependentUpon>Blood Request.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteAccount.Designer.cs">
+      <DependentUpon>DeleteAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Donor Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Donor Page.Designer.cs">
+      <DependentUpon>Donor Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DonorSignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DonorSignUp.Designer.cs">
+      <DependentUpon>DonorSignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homepage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homepage.Designer.cs">
+      <DependentUpon>Homepage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Request For Blood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Request For Blood.Designer.cs">
+      <DependentUpon>Request For Blood.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search Donor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search Donor.Designer.cs">
+      <DependentUpon>Search Donor.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="About Us.resx">
+      <DependentUpon>About Us.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddAdmin.resx">
+      <DependentUpon>AddAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin page.resx">
+      <DependentUpon>Admin page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Blood Request.resx">
+      <DependentUpon>Blood Request.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteAccount.resx">
+      <DependentUpon>DeleteAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Donor Page.resx">
+      <DependentUpon>Donor Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DonorSignUp.resx">
+      <DependentUpon>DonorSignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homepage.resx">
+      <DependentUpon>Homepage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Request For Blood.resx">
+      <DependentUpon>Request For Blood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Donor.resx">
+      <DependentUpon>Search Donor.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resize-16283998061527082969pic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1519885851134.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_pic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_2pic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RED.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resized-image-Promo.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{beb3d5e7-dc3a-4188-95bc-a5438272eb93}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
